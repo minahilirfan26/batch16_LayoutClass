@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    /* background-color: black;
+    height: 100vh; */
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: white;
+   justify-content: space-evenly;
+   box-shadow: 2px 2px 5px 2px black;
+}
+.logo{
+    width: 20%;
+    /* background-color: rebeccapurple; */
+    text-align: center;
+}
+.links{
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+.links > ul{
+    display: flex;
+    gap: 10%;
+    /* justify-content: space-around; */
+    list-style: none;
+    /* text-align: center;
+    align-items: center; */
+}
+
+.links>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(7, 7, 92);
+    font-weight: bold;
+}
+.btns{
+    width: 20%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.btns > button{
+    padding: 10px 25px;
+}
+.sigin{
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid blue;
+    color: white;
+    transition: background-color 2s, color 2s;
+}
+.sigin:hover{
+    background-color: transparent;
+    color: blue;
+}
+.login{
+    
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid blue;
+    color: blue;
+    transition: background-color 2s, color 2s;
+}
+.login:hover{
+    background-color: blue;
+    color: white;
+}
+.logo > img{
+    height: 150px;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(22, 22, 159);
+    height: 700px;
+    /* background-color: bisque;
+} */
+}
+.text{
+
+width: 50%;
+height: 600px;
+align-content: center;
+padding-left: 30px;
+font-size: 25px;
+
+}
+.text>h1{
+    color: white;
+    letter-spacing: 5px;
+}
+.text> p{
+    color: rgb(206, 208, 209);
+}
+.sec1-btn{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.sec1-img{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 600px;
+    align-content: center;
+    
+}
